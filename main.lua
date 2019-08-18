@@ -64,6 +64,10 @@ function SniperTips_BiS_Classic:ItemIsEquipment(itemClassID, itemSubClassID, ite
   return false
 end
 
+function SniperTips_BiS_Classic:GetCurrentPhase()
+  return 1
+end
+
 function SniperTips_BiS_Classic:HandleItem(self, item)
   -- Only load for the consumables item category
   if (SniperTips_BiS_Classic:ItemIsEquipment(item.classID, item.subClassID, item.id) == false) then
@@ -88,7 +92,7 @@ function SniperTips_BiS_Classic:GetItemBiS(itemId)
   return nil, nil
 end
 
-------------------
+-----------------
 -- Registration --
 ------------------
 
