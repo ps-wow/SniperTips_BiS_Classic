@@ -1,0 +1,8 @@
+## Interface: 11302
+## Title: SniperTips_BiS_Classic
+## Author: PrivateSniper
+## Version: 2.12.3
+## Notes: Adds (opinionated) BiS ratings for all items.
+## DefaultState: Enabled
+
+main.lua
