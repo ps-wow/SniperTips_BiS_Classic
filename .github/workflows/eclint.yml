@@ -20,4 +20,4 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm i eclint
-        npx eclint
+        npx eclint check .
