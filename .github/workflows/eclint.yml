@@ -19,5 +19,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: npm install, build, and test
       run: |
-        npm i eclint
-        npx eclint check .
+        npm i eclint; npx eclint check .
